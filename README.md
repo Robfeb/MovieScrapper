@@ -81,35 +81,8 @@ dotnet run --project src/FilmAffinityScraper/FilmAffinityScraper.csproj -- "data
 To scrape a single FilmAffinity movie URL and output JSON to `stdout`:
 
 ```bash
-dotnet run --project src/FilmAffinityScraper/FilmAffinityScraper.csproj -- "https://www.filmaffinity.com/en/film345698.html"
+dotnet run --project src/FilmAffinityScraper/FilmAffinityScraper.csproj -- "https://www.filmaffinity.com/es/film651337.html"
 ```
-
-#### Sample JSON Output
-
-```json
-{
-  "filmAffinityId": "345698",
-  "url": "https://www.filmaffinity.com/en/film345698.html",
-  "originalTitle": "13 dies d'octubre",
-  "year": 2015,
-  "runningTime": "96 min.",
-  "runningTimeMinutes": 96,
-  "country": "Spain",
-  "director": "Carlos Marques-Marcet",
-  "genre": "Drama | Historical. Franquismo. Biography. TV Movie",
-  "genres": [
-    "Drama",
-    "Historical",
-    "Franquismo",
-    "Biography",
-    "TV Movie"
-  ],
-  "synopsis": "During 13 days of October 1940, Ramona Companys, Lluís Companys sister; Ramón de Colubi, his defense attorney; and Luis Orgaz, Captain General of Catalunya, try to avoid, in different ways and for different reasons, that the President of the Generalitat is executed and thus becomes a martyr.",
-  "ratingValue": 6.1
-}
-```
-
----
 
 ## 🛡️ Responsible Scraping & Politeness
 
